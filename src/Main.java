@@ -13,6 +13,8 @@ public class Main {
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
 
-        System.out.println((ticket / mile) + " начисленных миль(и) за купленный билет");
+        int bonusMiles = ticket / mile;
+
+        System.out.println( bonusMiles + " начисленных миль(и) за купленный билет");
     }
 }
